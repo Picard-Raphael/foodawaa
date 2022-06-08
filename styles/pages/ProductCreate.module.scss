@@ -1,0 +1,43 @@
+.productcreate{
+    padding-top: 166px;
+    .productcreate-form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: $background-1;
+        border: 2px solid $border-1;
+        border-radius: 12px;
+        padding: 40px;
+        width: 800px;
+        .productcreate-form__div-input{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            width: 100%;
+            label {
+                font-size: 14px;
+                line-height: 20px;
+                color: #14142B;
+                font-weight: 500;
+                margin-bottom: 8px;
+            }
+            input {
+                padding: 14px 20px;
+                background-color:  rgba(255, 255, 255, 0.6);
+                border: 1.5px solid #D6D8E7;
+                border-radius: 10px;
+                width: 100%;
+            }
+
+        }
+        .productcreate-form__name-price {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            .productcreate-form__div-input:last-child{
+                width: 217px;
+                margin-left: 20px;
+            }
+        }
+    }
+}

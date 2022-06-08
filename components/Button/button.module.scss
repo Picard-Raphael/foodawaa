@@ -1,0 +1,23 @@
+.btn {
+	&.btn--primary {
+		background-color: $primary;
+	}
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 48px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 10px 30px rgba(37, 79, 229, 0.1);
+	padding: 14px;
+	color: $white;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 700;
+	cursor: pointer;
+	.btn-image {
+		margin-right: 20px;
+	}
+}
